@@ -45,7 +45,7 @@ export default function Home() {
             />
           </div>
           <h1 className="text-yellow-custom xl:text-8xl md:text-7xl sm:text-6xl text-5xl">
-            SenaMUN III
+            SenaMUN IV
           </h1>
           <p>Conferência Modelo ONU</p>
           <p className="mb-5">Senac Nações Unidas</p>
@@ -169,7 +169,7 @@ export default function Home() {
                 {/* Item de data do evento */}
                 <li className="flex gap-3 items-center">
                   <FaRegCalendarAlt className="text-3xl text-yellow-custom items-center" />{" "}
-                  31 de outubro à 01 de novembro
+                  9 e 10 de outubro 
                 </li>
                 {/* Item de horário do evento */}
                 <li className="flex gap-3 items-center">
