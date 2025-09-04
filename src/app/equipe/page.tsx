@@ -16,7 +16,7 @@ export default function Equipe() {
         </div>
         <div className="text-blue-custom mt-10 lg:mt-0 lg:ml-10">
           <h1 className="text-4xl text-yellow-custom font-semibold">
-            Nós somos o time SenaMUN 2024,
+            Nós somos o time SenaMUN 2025,
           </h1>
           <p className="text-2xl">no total 27 pessoas!</p>
 
