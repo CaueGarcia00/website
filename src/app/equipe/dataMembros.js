@@ -149,6 +149,11 @@ const dadosMembros = {
       imagem: "guilherme-takahashi.jpg",
     },
   ],
+  da: [
+    {
+
+    },
+  ],
   ori: [
     {
       nome: "THAIS DOMINGOS DOS SANTOS RODRIGUES",

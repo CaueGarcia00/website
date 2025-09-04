@@ -1,7 +1,7 @@
 const dadosComites = [
   {
-    tema: "Estratégias Contra a Violência e a Violação aos Direitos Humanos no Futebol",
-    comite: "Direitos Humanos",
+    tema: "Cooperação econômica internacional para mitigar os impactos da automação no mercado de trabalho",
+    comite: "ECOSOC (Conselho Econômico e Social das Nações Unidas)",
     modalidade: "Dupla",
     classroom: "https://classroom.google.com/c/NjgxNjE4MDA0MzQ3?cjc=i72nikf",
     whatsapp: "https://chat.whatsapp.com/KTXEAgsedPbJATiJ7lsR1e",
@@ -10,8 +10,8 @@ const dadosComites = [
     imagem: "HR_Futebol.jpg",
   },
   {
-    tema: "Violação dos Direitos Humanos no sistema carcerário de El Salvador",
-    comite: "Direitos Humanos",
+    tema: "Exploração de petróleo na Floresta Amazônica",
+    comite: "COP (Conferência das Partes)",
     modalidade: "Dupla",
     classroom: "https://classroom.google.com/c/NjUyODI2MjQ1NTIx?cjc=na7x4q3",
     whatsapp: "https://chat.whatsapp.com/GMtYLUsZxXP5htQ93Rlrpu",
@@ -20,8 +20,8 @@ const dadosComites = [
     imagem: "HR_ElSalvador.png",
   },
   {
-    tema: "Medidas Contra o Narcotráfico Internacional",
-    comite: "Conselho de Segurança",
+    tema: "Educação antidiscriminatória: políticas para combater o racismo e a xenofobia nos sistemas de ensino",
+    comite: "Câmara dos Deputdos",
     modalidade: "Dupla",
     classroom: "https://classroom.google.com/c/Njc2NTk5MzA1ODU1?cjc=mwudzt2",
     whatsapp: "https://chat.whatsapp.com/CjIpNTdJ38tCNQvjC3vkph",
@@ -30,8 +30,8 @@ const dadosComites = [
     imagem: "SC_Narcotráfico.jpg",
   },
   {
-    tema: "Regulação das Criptomoedas no Comércio Internacional",
-    comite: "OMC (Organização Mundial do Comércio)",
+    tema: "Exploração de crianças e adolescentes através do turismo sexual: O papel da comunidade internacional na prevenção e reabilitação de vítimas",
+    comite: "Direitos Humanos",
     modalidade: "Dupla",
     classroom: "https://classroom.google.com/c/NjgxNjE3OTM5Nzgy?cjc=wczy4do",
     whatsapp: "https://chat.whatsapp.com/B6xsZmeuyU6Hz5Os9UDRYa",
@@ -40,9 +40,9 @@ const dadosComites = [
     imagem: "OMC_Cripto.jpg",
   },
   {
-    tema: "Mundialização e Reforma da Educação",
+    tema: "Mediação e Reconstrução Frente à Crise na Síria",
     comite:
-      "UNESCO (Organização das Nações Unidas para a Educação, a Ciência e a Cultura)",
+      "Conselho de Segurança",
     modalidade: "Dupla",
     classroom: "https://classroom.google.com/c/NjgxNjE3OTgyNTA0?cjc=gpbhakg",
     whatsapp: "https://chat.whatsapp.com/D3akV8iCTrzHXTIsOeJ6ob",
@@ -51,8 +51,8 @@ const dadosComites = [
     imagem: "UNESCO_Educação.jpg",
   },
   {
-    tema: "Medidas de Mitigação da Escravidão Moderna no Circuito da Moda",
-    comite: "OIT (Organização Internacional do Trabalho)",
+    tema: "Garantindo a equidade no acesso a vacinas em possíveis futuras pandemias globais",
+    comite: "OMS (Organização Mundial da Saúde)",
     modalidade: "Dupla",
     classroom: "https://classroom.google.com/c/Njc2NTk5Mjg3MDg0?cjc=bhxtemp",
     whatsapp: "https://chat.whatsapp.com/Ew3WIYPxZrjE3MDWjSGvep",
@@ -61,8 +61,8 @@ const dadosComites = [
     imagem: "OIT_Moda.jpg",
   },
   {
-    tema: "Possibilidades de Reparação Histórica no Haiti",
-    comite: "ECOSOC (Conselho Econômico e Social das Nações Unidas)",
+    tema: "Abordando os impactos da indústria pornográfica sobre os direitos e a segurança das mulheres",
+    comite: "UN Women",
     modalidade: "Dupla",
     classroom: "https://classroom.google.com/c/NjUyODI2MjcxNDg4?cjc=f5dobyq",
     whatsapp: "https://chat.whatsapp.com/F2MACdg4hkn6HDbE7pgOa4",
@@ -71,8 +71,8 @@ const dadosComites = [
     imagem: "ECOSOC_Haiti.png",
   },
   {
-    tema: "Discutindo a Preservação e Demarcação das Terras Indígenas na América",
-    comite: "OEA (Organização dos Estados Americanos)",
+    tema: "O Impacto das Políticas de Taxação nos Estados Unidos: Justiça Fiscal e seus Efeitos Globais",
+    comite: "OMC (Organização Mundial do Comércio)",
     modalidade: "Dupla",
     classroom: "https://classroom.google.com/c/NjgxNjE3OTU5NDkz?cjc=hs2emhn",
     whatsapp: "https://chat.whatsapp.com/DMBG1M33N0z1luneTN4ps2",
@@ -81,8 +81,8 @@ const dadosComites = [
     imagem: "OEA_Indígenas.png",
   },
   {
-    tema: "Impactos da exploração de recursos naturais nos países africanos",
-    comite: "PNUMA (Programa das Nações Unidas para o Meio Ambiente)",
+    tema: "Conselho Mediterrâneo-asiático: Dominação Macedônica",
+    comite: "HISTÓRICO",
     modalidade: "Dupla",
     classroom: "https://classroom.google.com/c/NjUyODI2Mzk5MDEy?cjc=iis74fj",
     whatsapp: "https://chat.whatsapp.com/E4MLyv6btyg1q64hyOwhUF",
@@ -91,8 +91,8 @@ const dadosComites = [
     imagem: "PNUMA_África.jpeg",
   },
   {
-    tema: "Regulação do uso de feitiços e magias no mundo mágico da Disney",
-    comite: "Comitê Especial - Disney",
+    tema: "Conselho dos Deuses: A Humanidade Deve Ser Preservada ou Extinta",
+    comite: "Comitê Especial",
     modalidade: "Individual",
     classroom: "https://classroom.google.com/c/Njc2NTk4OTE3NjEw?cjc=6rw33ar",
     whatsapp: "https://chat.whatsapp.com/EfFi9dzCk5x1k9oGRFO37I",
@@ -101,8 +101,8 @@ const dadosComites = [
     imagem: "Especial_Disney.jpg",
   },
   {
-    tema: "The Impacts of the Arctic Militarization",
-    comite: "Security Council",
+    tema: "Vietnam as the Frontier of the Cold War",
+    comite: "Historical Security Council",
     modalidade: "Double",
     classroom: "https://classroom.google.com/c/NjUyODI2NjAyMTM8?cjc=ogc5xrl",
     whatsapp: "https://chat.whatsapp.com/FeK1tjPPhLQECFgVfQkt2h",
@@ -111,8 +111,8 @@ const dadosComites = [
     imagem: "SC_ArcticMilitarization.jpg",
   },
   {
-    tema: "Discussing the Aftermaths and the Future of the Korean War",
-    comite: "Historical Security Council",
+    tema: "Addressing the threats to international maritime security posed by Houthi attacks on commercial shipping",
+    comite: "Security Council",
     modalidade: "Double",
     classroom: "https://classroom.google.com/c/NjgxNjE3Nzg5NDg8?cjc=fxq2bf7",
     whatsapp: "https://chat.whatsapp.com/EHLLPQjzBjk7wiKunObRIN",
@@ -121,8 +121,8 @@ const dadosComites = [
     imagem: "HSC_KoreanWar.jpg",
   },
   {
-    tema: "The different consequences that are given to each Scuderia by FIA",
-    comite: "Special Committee - FIA",
+    tema: "Paths to Peace between the Galactic Republic and the Confederacy of Independent Systems",
+    comite: "Special Committee - Star Wars",
     modalidade: "Single",
     classroom: "https://classroom.google.com/c/NjgxNjE4MzI0MzE8?cjc=4zej4lp",
     whatsapp: "https://chat.whatsapp.com/GRnP77c8iBf9il6NbR9DrW",

@@ -18,16 +18,17 @@ export default function Equipe() {
           <h1 className="text-4xl text-yellow-custom font-semibold">
             Nós somos o time SenaMUN 2025,
           </h1>
-          <p className="text-2xl">no total 27 pessoas!</p>
+          <p className="text-2xl">no total 37 pessoas!</p>
 
           <div className="mt-10 text-lg">
-            <p className="text-xl">Subdivididos em 6 grupos: </p>
+            <p className="text-xl">Subdivididos em 7 grupos: </p>
             <ul className="pl-10 list-disc">
-              <li>Secretariado</li>
+              <li>Secretariado Geral</li>
               <li>Diretoria de Logística</li>
               <li>Diretoria de Comunicação</li>
-              <li>Diretoria de Crises</li>
-              <li>Diretoria Internacional</li>
+              <li>Diretoria de Crise e Imprensa</li>
+              <li>Diretoria de Mídia</li>
+              <li>Diretoria Acadêmica</li>
               <li>Orientadores</li>
             </ul>
           </div>
@@ -37,7 +38,7 @@ export default function Equipe() {
       <div className="">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-6 justify-center mx-6 my-12 xl:px-20">
           <Card
-            title="Secretariado"
+            title="Secretariado Geral"
             href="/equipe/secretariado"
             icon={<RiTeamLine />}
             subtitle="Conheça nosso time de secretários"
@@ -55,16 +56,22 @@ export default function Equipe() {
             subtitle="Conheça nosso time de comunicação"
           />
           <Card
-            title="Diretoria Internacional"
+            title="Diretoria de Crise e Imprensa"
             href="/equipe/internacional"
             icon={<RiTeamLine />}
             subtitle="Conheça nosso time internacional"
           />
           <Card
-            title="Diretoria de Crises"
+            title="Diretoria de Mídia"
             href="/equipe/crises"
             icon={<RiTeamLine />}
             subtitle="Conheça nosso time de crises"
+          />
+          <Card
+            title="Diretoria Acadêmica"
+            href="/equipe/orientadores"
+            icon={<RiTeamLine />}
+            subtitle="Conheça nosso time de orientadores"
           />
           <Card
             title="Orientadores"

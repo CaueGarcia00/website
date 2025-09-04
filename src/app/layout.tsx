@@ -11,7 +11,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "SenaMUN III",
+  title: "SenaMUN IV",
   description: "Venha conhecer nossa simulação!",
 };
 
