@@ -10,7 +10,7 @@ export const menuData = [
     ],
   },
   {
-    name: "SenaMUN 2024",
+    name: "SenaMUN 2025",
     href: "/simulacao",
     submenu: [
       {

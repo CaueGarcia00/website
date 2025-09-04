@@ -144,10 +144,10 @@ export default function Home() {
               </h1>
               <div className="text-light-blue-custom flex-col">
                 <h2 className=" font-medium xl:text-left lg:text-left text-center">
-                  “O mundo é o que se vê de onde se está”
+                  “A injustiça num lugar qualquer é uma ameaça à justiça em todo o lugar.”
                 </h2>
                 <p className="text-end text-xl font-light xl:pr-4 lg:pr-4 md:pr-10">
-                  -Milton Santos
+                  -Martin Luther King Jr.
                 </p>
               </div>
             </div>
@@ -169,12 +169,13 @@ export default function Home() {
                 {/* Item de data do evento */}
                 <li className="flex gap-3 items-center">
                   <FaRegCalendarAlt className="text-3xl text-yellow-custom items-center" />{" "}
-                  9 e 10 de outubro 
+                  9 e 10 de outubro
                 </li>
                 {/* Item de horário do evento */}
                 <li className="flex gap-3 items-center">
                   <FaRegClock className="text-4xl text-yellow-custom items-center" />{" "}
                   <div className="flex flex-col">
+                     {/*esperar ter os horários oficiais */}
                     <p>Quinta: 12h-18h15</p>
                     <p>Sexta: 13h-19h</p>
                   </div>
