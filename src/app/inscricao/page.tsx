@@ -12,7 +12,7 @@ const data = [
   },
   {
     title: "Imprensa (Press) - Alunos Senac e Escolas Parceiras",
-    href: "https://docs.google.com/forms/d/e/1FAIpQLSe6uqj6cBaOW6M6KLUOKeX6PZ2cmwxzyX4RzGJnOhc7xGWZFg/closedform",
+    href: "https://docs.google.com/forms/d/1YDCcbeXK2htoh7obuYJt-di39UsRs4DxwY5h2zgaINQ/edit",
   },
   {
     title: "Delegação Independente (sem advisor)",
@@ -20,7 +20,7 @@ const data = [
   },
   {
     title: "Mesários / Chairs",
-    href: "https://docs.google.com/forms/d/e/1FAIpQLSdunuufsDM9lesd_dPLLzAyJnEqs2_hkUOjaO-f-PXlMVzGNA/viewform",
+    href: "https://docs.google.com/forms/d/1QK72Tbbpb2H4fgET9XRgt7F3_Fd__3zdugirv5VB0HA/edit",
   },
   {
     title: "Escolas Parceiras",
