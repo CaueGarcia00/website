@@ -7,7 +7,7 @@ const dadosComites = [
     whatsapp: "https://chat.whatsapp.com/KTXEAgsedPbJATiJ7lsR1e",
     pdf: "https://drive.google.com/file/d/1QgfwpT_Ijbe2d_pub50pK5VebZsbT39s/view",
     idioma: "ptbr",
-    imagem: "HR_Futebol.jpg",
+    imagem: "ECOSOC.png",
   },
   {
     tema: "Exploração de petróleo na Floresta Amazônica",
@@ -17,7 +17,7 @@ const dadosComites = [
     whatsapp: "https://chat.whatsapp.com/GMtYLUsZxXP5htQ93Rlrpu",
     pdf: "https://drive.google.com/file/d/1J0mK5DhJSFp74f3w1bbtWy-LwB3k1aNr/view?usp=sharing",
     idioma: "ptbr",
-    imagem: "HR_ElSalvador.png",
+    imagem: "COP.png",
   },
   {
     tema: "Educação antidiscriminatória: políticas para combater o racismo e a xenofobia nos sistemas de ensino",
@@ -27,7 +27,7 @@ const dadosComites = [
     whatsapp: "https://chat.whatsapp.com/CjIpNTdJ38tCNQvjC3vkph",
     pdf: "https://drive.google.com/file/d/1RYOTlkmAlFvN11kpULv8sAtSfb5G3bbF/view",
     idioma: "ptbr",
-    imagem: "SC_Narcotráfico.jpg",
+    imagem: "Camara dos Deputados.webp",
   },
   {
     tema: "Exploração de crianças e adolescentes através do turismo sexual: O papel da comunidade internacional na prevenção e reabilitação de vítimas",
@@ -37,7 +37,7 @@ const dadosComites = [
     whatsapp: "https://chat.whatsapp.com/B6xsZmeuyU6Hz5Os9UDRYa",
     pdf: "https://drive.google.com/file/d/1Mf7NhxH3ER-kD1EKCXqcZNu2-XUQlf8g/view",
     idioma: "ptbr",
-    imagem: "OMC_Cripto.jpg",
+    imagem: "Direitos Humanos.png",
   },
   {
     tema: "Mediação e Reconstrução Frente à Crise na Síria",
@@ -48,7 +48,7 @@ const dadosComites = [
     whatsapp: "https://chat.whatsapp.com/D3akV8iCTrzHXTIsOeJ6ob",
     pdf: "https://drive.google.com/file/u/6/d/1MEq7Xcngj7UjiVKfQLwz9UNaTcz2MGDi/view?usp=drive_link",
     idioma: "ptbr",
-    imagem: "UNESCO_Educação.jpg",
+    imagem: "Conselho de Seguranca.png",
   },
   {
     tema: "Garantindo a equidade no acesso a vacinas em possíveis futuras pandemias globais",
@@ -58,17 +58,17 @@ const dadosComites = [
     whatsapp: "https://chat.whatsapp.com/Ew3WIYPxZrjE3MDWjSGvep",
     pdf: "https://drive.google.com/file/d/1Y1Lq4EQ0Rs1_9TGMiH6nXOOLa53oZie-/view",
     idioma: "ptbr",
-    imagem: "OIT_Moda.jpg",
+    imagem: "OMS.png",
   },
   {
     tema: "Abordando os impactos da indústria pornográfica sobre os direitos e a segurança das mulheres",
-    comite: "UN Women",
+    comite: "ONU Mulheres",
     modalidade: "Dupla",
     classroom: "https://classroom.google.com/c/NjUyODI2MjcxNDg4?cjc=f5dobyq",
     whatsapp: "https://chat.whatsapp.com/F2MACdg4hkn6HDbE7pgOa4",
     pdf: "https://drive.google.com/file/d/1uUrvBjVhDhIlFxekOlg1nJYWn91zcqj5/view?usp=drive_link",
     idioma: "ptbr",
-    imagem: "ECOSOC_Haiti.png",
+    imagem: "ONU Mulheres.jpg",
   },
   {
     tema: "O Impacto das Políticas de Taxação nos Estados Unidos: Justiça Fiscal e seus Efeitos Globais",
@@ -78,7 +78,7 @@ const dadosComites = [
     whatsapp: "https://chat.whatsapp.com/DMBG1M33N0z1luneTN4ps2",
     pdf: "https://drive.google.com/file/u/6/d/1T-HWJjGJ7uX4xcFnYGsBJv6QswBOHXR1/view?usp=sharing",
     idioma: "ptbr",
-    imagem: "OEA_Indígenas.png",
+    imagem: "omc.png",
   },
   {
     tema: "Conselho Mediterrâneo-asiático: Dominação Macedônica",
@@ -88,7 +88,7 @@ const dadosComites = [
     whatsapp: "https://chat.whatsapp.com/E4MLyv6btyg1q64hyOwhUF",
     pdf: "https://drive.google.com/file/d/1vyHe1-rMEvia6YtpfivDJF5oS_gsw2CF/view?usp=drive_link",
     idioma: "ptbr",
-    imagem: "PNUMA_África.jpeg",
+    imagem: "HISTORICO.webp",
   },
   {
     tema: "Conselho dos Deuses: A Humanidade Deve Ser Preservada ou Extinta",
@@ -98,7 +98,7 @@ const dadosComites = [
     whatsapp: "https://chat.whatsapp.com/EfFi9dzCk5x1k9oGRFO37I",
     pdf: "https://drive.google.com/file/u/6/d/14tYHTaZs8KNI40CzfsBPE8-5c1bU-uxI/view?usp=drive_link",
     idioma: "ptbr",
-    imagem: "Especial_Disney.jpg",
+    imagem: "Especial.webp",
   },
   {
     tema: "Vietnam as the Frontier of the Cold War",
@@ -108,7 +108,7 @@ const dadosComites = [
     whatsapp: "https://chat.whatsapp.com/FeK1tjPPhLQECFgVfQkt2h",
     pdf: "https://drive.google.com/file/u/6/d/1Tx9W9NAUsOBsYbHZqFs1vGrq2rKIqoPr/view?usp=sharing",
     idioma: "en",
-    imagem: "SC_ArcticMilitarization.jpg",
+    imagem: "HSC.jpg",
   },
   {
     tema: "Addressing the threats to international maritime security posed by Houthi attacks on commercial shipping",
@@ -118,7 +118,7 @@ const dadosComites = [
     whatsapp: "https://chat.whatsapp.com/EHLLPQjzBjk7wiKunObRIN",
     pdf: "https://drive.google.com/file/u/6/d/1GhzE5g_-NEZq5JTjxAWjbindIFyHIq3p/view?usp=drive_link",
     idioma: "en",
-    imagem: "HSC_KoreanWar.jpg",
+    imagem: "SC.jpg",
   },
   {
     tema: "Paths to Peace between the Galactic Republic and the Confederacy of Independent Systems",
@@ -128,7 +128,7 @@ const dadosComites = [
     whatsapp: "https://chat.whatsapp.com/GRnP77c8iBf9il6NbR9DrW",
     pdf: "https://drive.google.com/file/u/6/d/1E3umNYkY7JPchlOD_KCzkTuEuqOgfxEJ/view?usp=drive_link",
     idioma: "en",
-    imagem: "Special_FIA.jpg",
+    imagem: "SW.webp",
   },
 ];
 
