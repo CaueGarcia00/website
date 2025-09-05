@@ -4,8 +4,7 @@ import dados from "../dataMembros";
 interface Secretario {
   imagem: string;
   nome: string;
-  cargo: string;
-  mensagem: string;
+  cargo: string
 }
 
 const secretariosSec: Secretario[] = dados["sec"];
@@ -27,7 +26,7 @@ const Secretariado: React.FC = () => {
               <img
                 src={`/time/secretarios/${secretario.imagem}`}
                 alt={secretario.nome}
-                className="w-96 h-96 object-cover self-center"
+                className="w-96 h-96 border-4 border-blue-custom rounded-md object-cover self-center"
               />
               <div
                 className={`w-auto ${index % 2 === 0 ? "md:ml-4" : "md:mr-10"}`}
@@ -36,9 +35,6 @@ const Secretariado: React.FC = () => {
                   <h3 className="text-xl font-semibold">{secretario.nome}</h3>
                   <p className="text-gray-500">{secretario.cargo}</p>
                 </div>
-                <p className="my-4 sm:ml-1 text-gray-700 text-md sm:text-justify text-left">
-                  {secretario.mensagem}
-                </p>
               </div>
             </div>
           ))}

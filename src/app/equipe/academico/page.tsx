@@ -13,7 +13,7 @@ type Dados = {
 };
 
 const Academico: React.FC = () => {
-  const secretariosSec = dados["ddc"];
+  const secretariosSec = dados["da"];
 
   return (
     <div className="mb-20">
@@ -31,7 +31,7 @@ const Academico: React.FC = () => {
             }`}
           >
             <img
-              src={`/time/comunicacao/${secretario.imagem}`}
+              src={`/time/academico/${secretario.imagem}`}
               className="border-4 border-blue-custom rounded-md"
               alt={secretario.nome}
               width={260}

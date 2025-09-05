@@ -4,31 +4,31 @@ import { Button } from "@/components/ui/button";
 const data = [
   {
     title: "Alunos do Senac Nações Unidas",
-    href: "https://docs.google.com/forms/d/1pNJ353lIQt06i_yWSkavh5Yq5wZWLV41jVxJbiF77JU/edit",
+    href: "https://forms.gle/LcoZxPhci9bx8nqR6",
   },
   {
     title: "Alunos Senac - Performance de Crises",
-    href: "https://docs.google.com/forms/d/e/1FAIpQLScp_5mYlkJWwe86ODAEN4mWAdzb0BVnVmp_yatuLN-M8knMrA/viewform",
+    href: "https://forms.gle/MkJho8DfvdCktcZ48",
   },
   {
     title: "Imprensa (Press) - Alunos Senac e Escolas Parceiras",
-    href: "https://docs.google.com/forms/d/1YDCcbeXK2htoh7obuYJt-di39UsRs4DxwY5h2zgaINQ/edit",
+    href: "https://forms.gle/9rEKLuBD9iLj5tot9",
   },
   {
     title: "Delegação Independente (sem advisor)",
-    href: "https://docs.google.com/forms/d/1pNJ353lIQt06i_yWSkavh5Yq5wZWLV41jVxJbiF77JU/edit",
+    href: "https://forms.gle/LcoZxPhci9bx8nqR6",
   },
   {
     title: "Mesários / Chairs",
-    href: "https://docs.google.com/forms/d/1QK72Tbbpb2H4fgET9XRgt7F3_Fd__3zdugirv5VB0HA/edit",
+    href: "https://forms.gle/LcoZxPhci9bx8nqR6",
   },
   {
     title: "Escolas Parceiras",
-    href: "https://docs.google.com/forms/d/1pNJ353lIQt06i_yWSkavh5Yq5wZWLV41jVxJbiF77JU/edit",
+    href: "https://forms.gle/LcoZxPhci9bx8nqR6",
   },
   {
     title: "Ex-alunos do Senac Nações Unidas",
-    href: "https://docs.google.com/forms/d/1pNJ353lIQt06i_yWSkavh5Yq5wZWLV41jVxJbiF77JU/edit",
+    href: "https://forms.gle/LcoZxPhci9bx8nqR6",
   },
 ];
 

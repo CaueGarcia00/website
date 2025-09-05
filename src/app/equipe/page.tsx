@@ -8,7 +8,7 @@ export default function Equipe() {
         <div>
           <img
             className="border-4 border-blue-custom rounded-md"
-            src={"/time/equipe.jpg"}
+            src={"/time/equipe.JPG"}
             alt="Time Senamun"
             width={800}
             height={400}
@@ -57,21 +57,21 @@ export default function Equipe() {
           />
           <Card
             title="Diretoria de Crise e Imprensa"
-            href="/equipe/internacional"
-            icon={<RiTeamLine />}
-            subtitle="Conheça nosso time internacional"
-          />
-          <Card
-            title="Diretoria de Mídia"
             href="/equipe/crises"
             icon={<RiTeamLine />}
             subtitle="Conheça nosso time de crises"
           />
           <Card
-            title="Diretoria Acadêmica"
-            href="/equipe/orientadores"
+            title="Diretoria de Mídia"
+            href="/equipe/midia"
             icon={<RiTeamLine />}
-            subtitle="Conheça nosso time de orientadores"
+            subtitle="Conheça nosso time de midia"
+          />
+          <Card
+            title="Diretoria Acadêmica"
+            href="/equipe/academico"
+            icon={<RiTeamLine />}
+            subtitle="Conheça nosso time de escritores e revisores"
           />
           <Card
             title="Orientadores"
