@@ -36,12 +36,12 @@ export default function PartnershipPage() {
         <Card>
           <CardContent className="flex flex-col items-center h-96 justify-between p-6">
             <Image
-              src="/logo-casa-hope.jpg"
-              alt="Casa Hope"
+              src="/correntebem.jpg"
+              alt="Corrente do Bem"
               width={200}
               height={200}
             />
-            <h2 className="text-2xl font-semibold mt-4">Casa Hope</h2>
+            <h2 className="text-2xl font-semibold mt-4">Corrente do Bem</h2>
           </CardContent>
         </Card>
       </div>
@@ -72,17 +72,12 @@ export default function PartnershipPage() {
 
       <Card>
         <CardContent className="flex flex-col items-center justify-center p-6">
-          <h2 className="text-2xl font-semibold mb-4">
-            Faça o Download das Regras
+          <h2 
+          className="text-2xl font-semibold mb-4 text-[#0000EE]">
+            <a href="https://www.canva.com/design/DAGo3IZa2S0/NpwwXD7OK3zuF2ZItHNVDg/view?utm_content=DAGo3IZa2S0&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h888188b6db">
+              Conheça mais e Ajude!
+            </a>
           </h2>
-          <p className="text-muted-foreground mb-4">
-            Aqui você encontra as regras para a competição da nossa campanha de
-            arrecadação
-          </p>
-          <Button className="flex items-center" onClick={handleDownload}>
-            <FileDown className="mr-2 h-4 w-4" />
-            Download PDF
-          </Button>
         </CardContent>
       </Card>
     </div>
