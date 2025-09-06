@@ -45,31 +45,6 @@ export default function PartnershipPage() {
           </CardContent>
         </Card>
       </div>
-
-      <Card className="mb-12">
-        <CardContent className="p-6">
-          <h2 className="text-2xl font-semibold mb-4">
-            Introdução a Competição
-          </h2>
-          <p className="text-muted-foreground text-justify">
-            Com grande alegria, o SenaMUN anuncia uma parceria especial com a
-            Casa Hope para uma nobre causa. Durante nossa próxima conferência,
-            lançaremos uma competição de arrecadação de alimentos não perecíveis
-            em benefício das crianças atendidas pela Casa Hope, instituição que
-            oferece suporte vital a jovens em tratamento contra o câncer. Nosso
-            objetivo é mobilizar os participantes do SenaMUN para que, juntos,
-            possamos fazer a diferença na vida dessas crianças e suas famílias.
-            O comitê que arrecadar a maior quantidade de doações será premiado,
-            incentivando a todos a participarem de forma ativa e solidária. Esta
-            campanha reflete o compromisso do SenaMUN com ações humanitárias,
-            unindo forças para transformar solidariedade em ações concretas.
-            Vamos nos engajar e contribuir para uma causa que toca profundamente
-            nossas vidas. Juntos, podemos construir um futuro mais solidário e
-            esperançoso! Acompanhe e participe dessa ação!
-          </p>
-        </CardContent>
-      </Card>
-
       <Card>
         <CardContent className="flex flex-col items-center justify-center p-6">
           <h2 
