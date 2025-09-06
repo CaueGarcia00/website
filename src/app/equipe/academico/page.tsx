@@ -24,11 +24,8 @@ const Academico: React.FC = () => {
         {secretariosSec.map((secretario, index) => (
           <div
             key={index}
-            className={`overflow-hidden flex flex-col items-center ${
-              shouldExpandToNextRow(index, secretariosSec.length)
-                ? "md:col-span-2 col-span-1 "
-                : ""
-            }`}
+            // The conditional class that caused the centering has been removed.
+            className="overflow-hidden flex flex-col items-center"
           >
             <img
               src={`/time/academico/${secretario.imagem}`}
@@ -48,9 +45,9 @@ const Academico: React.FC = () => {
   );
 };
 
-// Function to determine if the current item should span multiple columns
-const shouldExpandToNextRow = (index: number, totalItems: number) => {
-  return index === totalItems - 1 && totalItems % 3 !== 0;
-};
+// This function is no longer needed and has been removed.
+// const shouldExpandToNextRow = (index: number, totalItems: number) => {
+//   return index === totalItems - 1 && totalItems % 3 !== 0;
+// };
 
 export default Academico;
