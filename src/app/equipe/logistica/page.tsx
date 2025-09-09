@@ -24,7 +24,6 @@ const Logistica: React.FC = () => {
         {secretariosSec.map((secretario, index) => (
           <div
             key={index}
-            // The conditional class that caused the centering has been removed.
             className="overflow-hidden flex flex-col items-center"
           >
             <img
@@ -44,10 +43,5 @@ const Logistica: React.FC = () => {
     </div>
   );
 };
-
-// This function is no longer needed and has been removed.
-// const shouldExpandToNextRow = (index: number, totalItems: number) => {
-//   return index === totalItems - 1 && totalItems % 3 !== 0;
-// };
 
 export default Logistica;

@@ -49,11 +49,6 @@ const Comunicacao: React.FC = () => {
   );
 };
 
-// This function was causing the alignment problem and is no longer needed.
-/*
-const shouldExpandToNextRow = (index: number, totalItems: number) => {
-  return index === totalItems - 1 && totalItems % 3 !== 0;
-};
-*/
+
 
 export default Comunicacao;

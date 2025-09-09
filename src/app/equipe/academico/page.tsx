@@ -12,7 +12,7 @@ type Dados = {
   [key: string]: Membro[];
 };
 
-const Academico: React.FC = () => {
+const academico: React.FC = () => {
   const secretariosSec = dados["da"];
 
   return (
@@ -20,7 +20,7 @@ const Academico: React.FC = () => {
       <h2 className="text-4xl font-bold text-center my-14 underline">
         Diretoria Acadêmica
       </h2>
-      <div className="grid md:grid-cols-2 grid-cols-1 gap-5">
+      <div className="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10">
         {secretariosSec.map((secretario, index) => (
           <div
             key={index}
@@ -44,10 +44,4 @@ const Academico: React.FC = () => {
     </div>
   );
 };
-
-// This function is no longer needed and has been removed.
-// const shouldExpandToNextRow = (index: number, totalItems: number) => {
-//   return index === totalItems - 1 && totalItems % 3 !== 0;
-// };
-
-export default Academico;
+export default academico;
