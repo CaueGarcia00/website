@@ -3,31 +3,19 @@ import { Button } from "@/components/ui/button";
 
 const data = [
   {
-    title: "Alunos do Senac Nações Unidas",
+    title: "Delegações",
     href: "https://forms.gle/LcoZxPhci9bx8nqR6",
   },
   {
-    title: "Alunos Senac - Performance de Crises",
+    title: "Performance de Crises",
     href: "https://forms.gle/MkJho8DfvdCktcZ48",
   },
   {
-    title: "Imprensa (Press) - Alunos Senac e Escolas Parceiras",
+    title: "Imprensa (Press)",
     href: "https://forms.gle/9rEKLuBD9iLj5tot9",
   },
   {
-    title: "Delegação Independente (sem advisor)",
-    href: "https://forms.gle/LcoZxPhci9bx8nqR6",
-  },
-  {
-    title: "Mesários / Chairs",
-    href: "https://forms.gle/LcoZxPhci9bx8nqR6",
-  },
-  {
-    title: "Escolas Parceiras",
-    href: "https://forms.gle/LcoZxPhci9bx8nqR6",
-  },
-  {
-    title: "Ex-alunos do Senac Nações Unidas",
+    title: "Mesários / Chairs (Inscrições Fechadas)",
     href: "https://forms.gle/LcoZxPhci9bx8nqR6",
   },
 ];

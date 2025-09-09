@@ -146,7 +146,7 @@ const dadosMembros = {
       imagem: "Leonardo Sakamoto.JPG",
     },
     {
-      nome: "Rebeca Nalin",
+      nome: "Rebeca de Sousa Nalin",
       cargo: "Diretoria de Mídia",
       imagem: "Rebeca Nalin.JPG",
     },

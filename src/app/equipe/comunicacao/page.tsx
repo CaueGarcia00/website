@@ -20,15 +20,16 @@ const Comunicacao: React.FC = () => {
       <h2 className="text-4xl font-bold text-center my-14 underline">
         Diretoria de Comunicação
       </h2>
+      {/* 
+        The grid is now a simple 2-column layout on medium screens (md) and up.
+        This will create a 2x2 grid for the four members, ensuring they are all aligned.
+        The complex conditional class has been removed.
+      */}
       <div className="grid md:grid-cols-2 grid-cols-1 gap-5">
         {secretariosSec.map((secretario, index) => (
           <div
             key={index}
-            className={`overflow-hidden flex flex-col items-center ${
-              shouldExpandToNextRow(index, secretariosSec.length)
-                ? "md:col-span-2 col-span-1 "
-                : ""
-            }`}
+            className="overflow-hidden flex flex-col items-center"
           >
             <img
               src={`/time/comunicacao/${secretario.imagem}`}
@@ -48,9 +49,11 @@ const Comunicacao: React.FC = () => {
   );
 };
 
-// Function to determine if the current item should span multiple columns
+// This function was causing the alignment problem and is no longer needed.
+/*
 const shouldExpandToNextRow = (index: number, totalItems: number) => {
   return index === totalItems - 1 && totalItems % 3 !== 0;
 };
+*/
 
 export default Comunicacao;
