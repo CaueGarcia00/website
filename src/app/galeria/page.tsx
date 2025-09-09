@@ -3,7 +3,7 @@ import { Dialog, DialogTrigger, DialogContent } from "@/components/ui/dialog";
 import { getImages } from "@/lib/getImages";
 
 export default function Galeria() {
-  const years = ["2023", "2022"];
+  const years = ["2024","2023", "2022"];
 
   return (
     <div className="container mx-auto py-12 md:px-0 px-2">
@@ -13,7 +13,7 @@ export default function Galeria() {
           Todos direitos reservados - ©
         </p>
       </div>
-      <Tabs defaultValue="2023" className="mb-8">
+      <Tabs defaultValue="2024" className="mb-8">
         <TabsList className="flex justify-center gap-4 mb-6">
           {years.map((year) => (
             <TabsTrigger key={year} value={year}>
