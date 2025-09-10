@@ -1,6 +1,7 @@
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
 import { Dialog, DialogTrigger, DialogContent } from "@/components/ui/dialog";
 import { getImages } from "@/lib/getImages";
+import Image from 'next/image'
 
 export default function Galeria() {
   const years = ["2024","2023", "2022"];
@@ -30,7 +31,7 @@ export default function Galeria() {
                   <div key={index} className="relative group">
                     <Dialog>
                       <DialogTrigger asChild>
-                        <img
+                        <Image
                           src={src}
                           alt={`Photo ${index + 1}`}
                           width="300"
@@ -40,9 +41,10 @@ export default function Galeria() {
                         />
                       </DialogTrigger>
                       <DialogContent className="p-0 flex items-center justify-center max-w-screen-lg max-h-screen-lg">
-                        <img
+                        <Image
                           src={src}
                           alt={`Photo ${index + 1}`}
+                          width="250"
                           className="w-auto h-auto max-w-full max-h-full object-contain"
                         />
                       </DialogContent>
