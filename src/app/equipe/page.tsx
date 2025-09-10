@@ -1,12 +1,13 @@
 import Card from "@/components/Card";
 import { RiTeamLine } from "react-icons/ri";
+import Image from 'next/image'
 
 export default function Equipe() {
   return (
     <section className="h-fit">
       <article className="flex flex-col lg:flex-row justify-between items-center xl:px-32 px-5 py-10">
         <div>
-          <img
+          <Image
             className="border-4 border-blue-custom rounded-md"
             src={"/time/equipe.JPG"}
             alt="Time Senamun"

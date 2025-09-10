@@ -1,5 +1,6 @@
 import React from "react";
 import dados from "../dataMembros";
+import Image from 'next/image'
 
 type Membro = {
   nome: string;
@@ -30,7 +31,7 @@ const Crises: React.FC = () => {
                 : ""
             }`}
           >
-            <img
+            <Image
               src={`/time/crises/${secretario.imagem}`}
               className="border-4 border-blue-custom rounded-md"
               alt={secretario.nome}

@@ -11,12 +11,12 @@ export default function Cronogramas() {
         pageSubtitle="Veja o planejamento"
       />
       <main className="bg-blue-custom flex justify-center md:p-0 ">
-        <img
+        <Image
           src="/cronogramas/cronograma-senamun24.png"
           alt="Cronograma"
           className="md:block hidden"
         />
-        <img
+        <Image
           src="/cronogramas/cronograma-senamun24-mobile.png"
           alt="Cronograma"
           className="md:hidden block border-y-4 border-yellow-custom"

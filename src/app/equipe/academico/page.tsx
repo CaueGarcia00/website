@@ -1,5 +1,6 @@
 import React from "react";
 import dados from "../dataMembros";
+import Image from 'next/image'
 
 type Membro = {
   nome: string;
@@ -27,7 +28,7 @@ const academico: React.FC = () => {
             // The conditional class that caused the centering has been removed.
             className="overflow-hidden flex flex-col items-center"
           >
-            <img
+            <Image
               src={`/time/academico/${secretario.imagem}`}
               className="border-4 border-blue-custom rounded-md"
               alt={secretario.nome}

@@ -1,5 +1,6 @@
 import React from "react";
 import dados from "../dataMembros";
+import Image from 'next/image'
 
 interface Secretario {
   imagem: string;
@@ -23,7 +24,7 @@ const Secretariado: React.FC = () => {
                 index % 2 === 0 ? "lg:flex-row" : "lg:flex-row-reverse"
               }`}
             >
-              <img
+              <Image
                 src={`/time/secretarios/${secretario.imagem}`}
                 alt={secretario.nome}
                 className="w-96 h-96 border-4 border-blue-custom rounded-md object-cover self-center"

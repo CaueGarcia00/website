@@ -1,5 +1,6 @@
 import React from "react";
 import dados from "../dataMembros";
+import Image from 'next/image'
 
 type Membro = {
   nome: string;
@@ -26,7 +27,7 @@ const Logistica: React.FC = () => {
             key={index}
             className="overflow-hidden flex flex-col items-center"
           >
-            <img
+            <Image
               src={`/time/logistica/${secretario.imagem}`}
               className="border-4 border-blue-custom rounded-md"
               alt={secretario.nome}
